@@ -1,6 +1,5 @@
 === Pikto Chat ===
 Contributors: nenad.domuz, marko-resnik, jasnabalog, Dekii, marija.vandot, piktogramstudio
-Donate link: http://www.piktogramstudio.com/en/
 Tags: chat, instant messages, im
 Requires at least: 4.1.1
 Tested up to: 4.1
