@@ -4,7 +4,7 @@ Donate link: http://www.piktogramstudio.com/en/
 Tags: chat, instant messages, im
 Requires at least: 4.1.1
 Tested up to: 4.1
-Stable tag: 0.0.9
+Stable tag: 0.0.10
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -40,6 +40,11 @@ Nothing for now.
 3. Screenshot of the chat window with dark background and with 5 messages on the list
 
 == Changelog ==
+
+= 0.0.10 =
+*Release Date -  April 14th, 2015
+
+* Edited screenshots
 
 = 0.0.9 =
 *Release Date -  April 8th, 2015

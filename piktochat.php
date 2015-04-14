@@ -3,7 +3,7 @@
  * Plugin Name: Pikto Chat
  * Plugin URI: http://www.piktogramstudio.com/en/plugins/piktochat
  * Description: Piktogram studio chat
- * Version: 0.0.9
+ * Version: 0.0.10
  * Author: Piktogram Studio DOO
  * Author URI: http://www.piktogramstudio.com/en/
  * License: GPL2
