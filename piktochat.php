@@ -3,7 +3,7 @@
  * Plugin Name: Pikto Chat
  * Plugin URI: http://www.piktogramstudio.com/en/plugins/piktochat
  * Description: Piktogram studio chat
- * Version: 0.0.10
+ * Version: 0.0.11
  * Author: Piktogram Studio DOO
  * Author URI: http://www.piktogramstudio.com/en/
  * License: GPL2
@@ -58,9 +58,9 @@ class Piktochat extends WP_Widget
     }
     
     //Widget form for choosing a number for displayed chat messages and color scheme in chat window
-    public function form() {
-        $msg_num = get_option( 'widget_piktochat' )[2]['option'];
-        $color_scheme = get_option( 'widget_piktochat' )[2]['color'];
+    public function form( $instance ) {
+        $msg_num = $instance['option'];
+		$color_scheme = $instance['color'];
 ?>
         <p class='options-widget'><?php _e( 'Choose message output:', 'piktochat' ); ?></p>
         <select id='<?php echo $this->get_field_id( 'option' ); ?>' name='<?php echo $this->get_field_name( 'option' ); ?>'>
@@ -83,7 +83,7 @@ class Piktochat extends WP_Widget
     }
     
     //Widget method for storing choosen options for message number and color scheme
-    public function update( $new_instance ) {
+    public function update( $new_instance, $old_instance ) {
         $instance = array();
         
         $instance['option'] = ( ! empty( $new_instance['option'] ) ) ? strip_tags( $new_instance['option'] ) : 5;

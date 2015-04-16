@@ -3,7 +3,7 @@ Contributors: nenad.domuz, marko-resnik, jasnabalog, Dekii, marija.vandot, pikto
 Tags: chat, instant messages, im
 Requires at least: 4.1.1
 Tested up to: 4.1
-Stable tag: 0.0.10
+Stable tag: 0.0.11
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -39,6 +39,11 @@ Nothing for now.
 3. Screenshot of the chat window with dark background and with 5 messages on the list
 
 == Changelog ==
+
+= 0.0.11 =
+*Release Date -  April 15th, 2015
+
+* Fixed some minor bugs regarding PHP code that handles Wordpress functions.
 
 = 0.0.10 =
 *Release Date -  April 14th, 2015
